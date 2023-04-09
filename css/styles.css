@@ -138,7 +138,6 @@ header{
 .qualities-item-description{
     color: var(--main-text-color);
     letter-spacing: 0.03em;
-    font-weight: 400;
     line-height: 24px;
 }
 
@@ -192,7 +191,6 @@ header{
 .team-item-duty{
     color: var(--main-text-color);
     letter-spacing: 0.03em;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 }
@@ -214,7 +212,6 @@ footer{
     color: var(--hover-color);
 }
 .footer-address{
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--first-bg-color);
@@ -222,7 +219,6 @@ footer{
 }
 .footer-e-mail{
     text-decoration: none;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--footer-text-color);    
@@ -234,7 +230,6 @@ footer{
 }
 .footer-tel{
     text-decoration: none;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--footer-text-color);
@@ -313,7 +308,6 @@ footer{
 .project-item-type{
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: var(--main-text-color);    
