@@ -1,0 +1,299 @@
+:root{
+    --main-text-color:#757575;
+    --hover-color: #2196F3;
+    --title-color: #212121;
+    --nav-text-color: #000000;
+    --first-bg-color: #ffffff;
+    --second-bg-color: #2F303A;
+    --third-bg-color: #F5F4FA;  
+    --footer-text-color:rgba(255, 255, 255, 0.6);
+    --button-hover-color:#188CE8;
+    --project-border-color: #EEEEEE;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+}
+
+header{
+    background-color: var(--first-bg-color);
+    display: inline;
+    text-align: center;
+    padding: 9px;
+    margin: 0;
+}
+
+.nav-logo{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: var(--nav-text-color);    
+    font-weight: 700;
+}
+.nav-logo-span{
+    color: var(--hover-color);
+}
+
+.nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    display: inline-table;
+}
+.nav-menu-item{
+    display: inline-table;
+}
+.nav-menu-item-link{
+    text-decoration: none;
+    font-size: 14;
+    letter-spacing: 0.02em;
+    color: var(--nav-text-color);
+    font-weight: 500;
+}
+.nav-menu-item-link:active{
+    color: var(--hover-color);
+}
+
+.e-mail{
+    text-decoration: none;
+    font-size: 14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    font-weight: 500;
+}
+.e-mail:hover{
+    color: var(--hover-color);
+}
+
+.tel{
+    text-decoration: none;
+    font-size: 14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    font-weight: 500;
+}
+.selected{
+    color: var(--hover-color);
+}
+
+.banner{
+    background-color: var(--second-bg-color);
+    text-align: center;
+    padding: 10em;
+}
+.banner-title{
+    color: var(--first-bg-color);
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    font-weight: 900;
+}
+.banner-button{
+    background-color: var(--hover-color);
+    color: var(--first-bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    padding: 0.5em;
+}
+.banner-button:hover{
+    background-color: var(--button-hover-color);
+}
+
+.qualities{
+    background-color: var(--first-bg-color);
+    list-style-type: none;
+    padding: 3em;
+    text-align: center;
+}
+.qualities-item{
+    display:inline-table;
+    width: 18em;
+    text-align: left;
+}
+.qualities-item-title{
+    color: var(--title-color);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 16px
+}
+.qualities-item-description{
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tasks{
+    text-align: center;
+    background-color: var(--first-bg-color);
+    padding: 3em;
+}
+.tasks-title{
+    color: var(--title-color);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+}
+.tasks-items{
+    list-style-type: none;
+}
+.tasks-item{
+    display:inline-table;
+    margin: 0.7em;
+}
+
+.team{
+    text-align: center;
+    background-color: var(--third-bg-color);
+    padding: 5em;
+}
+.team-title{
+    color: var(--title-color);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+}
+.team-items{
+    list-style-type: none;
+}
+.team-item{    
+    display:inline-table;
+    margin: 0.7em;
+    background: var(--first-bg-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-item-title{
+    color: var(--title-color);
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.team-item-duty{
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+footer{
+    padding: 5em;
+    background-color: var(--second-bg-color);
+}
+.footer-logo{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 31px;
+    color: var(--first-bg-color);
+    font-weight: 700;
+}
+.footer-logo-span{
+    color: var(--hover-color);
+}
+.footer-address{
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--first-bg-color);
+    font-style: normal;
+}
+.footer-e-mail{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-color);    
+    font-style: normal;
+}
+.footer-tel{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-color);
+    font-style: normal;
+}
+
+/*Portfolio css*/
+
+.portfolio-filters{
+    background-color: var(--first-bg-color);
+    text-align: center;
+    margin-top: 5em;
+}
+.portfolio-filters-items{
+    list-style-type: none;
+}
+.portfolio-filters-item{
+    display: inline-table;
+}
+.portfolio-filters-item-button{
+    padding: 0.5em;
+    background-color: var(--third-bg-color);
+    border:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    line-height: 26px;
+    color: var(--title-color);
+}
+.portfolio-filters-item-button-selected{
+    padding: 0.5em;
+    background-color: var(--hover-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--first-bg-color);
+}
+
+.projects{
+    background-color: var(--first-bg-color);
+    text-align: center;
+    margin-top: 5em;
+    margin-right: 15em;
+    margin-left: 15em;
+}
+.project-items{
+    list-style-type: none;
+}
+.project-item{
+    display: inline-table;
+    border: 1px solid var(--project-border-color);
+    margin: 1em;
+}
+.project-item-title{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--title-color);    
+    padding-left: 1em;
+}
+.project-item-type{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--main-text-color);    
+    padding-left: 1em;
+}
