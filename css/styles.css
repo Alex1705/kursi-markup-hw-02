@@ -16,6 +16,7 @@ body{
     font-size: 14px;
     letter-spacing: 0.03em;
     font-weight: 400;
+    color: var(--main-text-color);
 }
 
 header{
@@ -33,6 +34,7 @@ header{
     letter-spacing: 0.03em;
     color: var(--nav-text-color);    
     font-weight: 700;
+    cursor: pointer;
 }
 .nav-logo-span{
     color: var(--hover-color);
@@ -54,8 +56,10 @@ header{
     color: var(--nav-text-color);
     font-weight: 500;
 }
-.nav-menu-item-link:active{
+.nav-menu-item-link:focus,
+.nav-menu-item-link:hover{
     color: var(--hover-color);
+    cursor: pointer;
 }
 
 .e-mail{
@@ -65,8 +69,10 @@ header{
     color: var(--main-text-color);
     font-weight: 500;
 }
-.e-mail:hover{
+.e-mail:hover,
+.e-mail:focus{
     color: var(--hover-color);
+    cursor: pointer;
 }
 
 .tel{
@@ -76,6 +82,12 @@ header{
     color: var(--main-text-color);
     font-weight: 500;
 }
+.tel:hover,
+.tel:focus{
+    color: var(--hover-color);
+    cursor: pointer;
+}
+
 .selected{
     color: var(--hover-color);
 }
@@ -200,6 +212,7 @@ footer{
     line-height: 31px;
     color: var(--first-bg-color);
     font-weight: 700;
+    cursor: pointer;
 }
 .footer-logo-span{
     color: var(--hover-color);
@@ -219,6 +232,11 @@ footer{
     color: var(--footer-text-color);    
     font-style: normal;
 }
+.footer-e-mail:hover,
+.footer-e-mail:focus{
+    color: var(--hover-color);
+    cursor: pointer;
+}
 .footer-tel{
     text-decoration: none;
     font-weight: 400;
@@ -226,6 +244,11 @@ footer{
     letter-spacing: 0.03em;
     color: var(--footer-text-color);
     font-style: normal;
+}
+.footer-tel:hover,
+.footer-tel:focus{
+    color: var(--hover-color);
+    cursor: pointer;
 }
 
 /*Portfolio css*/
@@ -251,6 +274,12 @@ footer{
 
     line-height: 26px;
     color: var(--title-color);
+}
+.portfolio-filters-item-button:hover,
+.portfolio-filters-item-button:focus{
+    background-color: var(--hover-color);
+    color: var(--first-bg-color);
+    cursor: pointer;
 }
 .portfolio-filters-item-button-selected{
     padding: 0.5em;
