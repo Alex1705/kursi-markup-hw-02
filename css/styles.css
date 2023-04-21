@@ -37,8 +37,8 @@ body{
 /* Header */
 .header{    
     background-color: var(--first-bg-color);   
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     border-bottom: 1px solid var(--header-border-color);
 }
 .header-container{
@@ -92,11 +92,23 @@ body{
     font-size: 14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-    font-weight: 500;
+    font-weight: 500;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .e-mail:hover,
 .e-mail:focus{
     color: var(--hover-color);
+}
+.mail-icon{
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+.e-mail:hover .mail-icon,
+.e-mail:focus .mail-icon{
+    fill: var(--hover-color);
 }
 
 .tel{
@@ -105,10 +117,23 @@ body{
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .tel:hover,
 .tel:focus{
     color: var(--hover-color);
+}
+.tel-icon{    
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    padding: 0;
+}
+.tel:hover .mail-icon,
+.tel:focus .mail-icon{
+    fill: var(--hover-color);
 }
 
 .selected{

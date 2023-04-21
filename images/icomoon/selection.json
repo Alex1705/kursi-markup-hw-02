@@ -41,9 +41,9 @@
         }
       ],
       "properties": {
-        "order": 10,
+        "order": 21,
         "id": 16,
-        "name": "antenna-1",
+        "name": "antenna",
         "prevSize": 32,
         "code": 59648,
         "codes": [
@@ -287,7 +287,7 @@
       "properties": {
         "order": 11,
         "id": 15,
-        "name": "astronaut-1",
+        "name": "astronaut",
         "prevSize": 32,
         "code": 59650,
         "codes": [
@@ -1216,7 +1216,7 @@
       "properties": {
         "order": 18,
         "id": 8,
-        "name": "clock-1",
+        "name": "clock",
         "prevSize": 32,
         "code": 59677,
         "codes": [
@@ -1302,7 +1302,7 @@
       "properties": {
         "order": 19,
         "id": 7,
-        "name": "diagram-1",
+        "name": "diagram",
         "prevSize": 32,
         "code": 59681,
         "codes": [
