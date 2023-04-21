@@ -105,6 +105,7 @@ body{
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    fill: var(--main-text-color);
 }
 .e-mail:hover .mail-icon,
 .e-mail:focus .mail-icon{
@@ -130,9 +131,10 @@ body{
     height: 16px;
     margin-right: 10px;
     padding: 0;
+    fill: var(--main-text-color);
 }
-.tel:hover .mail-icon,
-.tel:focus .mail-icon{
+.tel:hover .tel-icon,
+.tel:focus .tel-icon{
     fill: var(--hover-color);
 }
 
