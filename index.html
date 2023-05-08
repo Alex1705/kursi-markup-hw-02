@@ -29,7 +29,12 @@
         <section class="banner section">            
             <div class="container">
                 <h1 class="banner-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="banner-button">Заказать услугу</button>
+                <button type="button" class="banner-button" data-modal-open>Заказать услугу</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <button class="modal-close-button" data-modal-close><svg class="modal-close-button-icon"><use href="./images/icons.svg#icon-close-button"></use></svg></button>
+                    </div>
+                </div>
             </div>
         </section>
         <main>
@@ -63,9 +68,18 @@
                 <div class="container">
                     <h2 class="tasks-title">Чем мы занимаемся</h2>
                     <ul class="tasks-items">
-                        <li class="tasks-item"><img width="370" src="./images/what_we_do1.jpg" alt="Человек пишет код" class="tasks-item-image"></li>
-                        <li class="tasks-item"><img width="370" src="./images/what_we_do2.jpg" alt="Макет приложения на телефоне" class="tasks-item-image"></li>
-                        <li class="tasks-item"><img width="370" src="./images/what_we_do3.jpg" alt="Цветовая палитра на планшете" class="tasks-item-image"></li>
+                        <li class="tasks-item">
+                            <img width="370" src="./images/what_we_do1.jpg" alt="Человек пишет код" class="tasks-item-image">
+                            <p class="task-item-title">Десктопные приложения</p>
+                        </li>
+                        <li class="tasks-item">
+                            <img width="370" src="./images/what_we_do2.jpg" alt="Макет приложения на телефоне" class="tasks-item-image">
+                            <p class="task-item-title">Мобильные приложения</p>
+                        </li>
+                        <li class="tasks-item">
+                            <img width="370" src="./images/what_we_do3.jpg" alt="Цветовая палитра на планшете" class="tasks-item-image">
+                            <p class="task-item-title">Дизайнерские решения</p>
+                        </li>
                     </ul>      
                 </div>     
             </section>
@@ -311,5 +325,6 @@
                 </div>
             </div>
         </footer>
+        <script src="./js/modal.js"></script>
     </body>
 </html>
