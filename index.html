@@ -33,6 +33,39 @@
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
                         <button class="modal-close-button" data-modal-close><svg class="modal-close-button-icon"><use href="./images/icons.svg#icon-close-button"></use></svg></button>
+                        <form class="modal-form" name="recall_form" autocomplete="on">
+                                <label class="modal-form-title">Оставьте свои данные, мы вам перезвоним</label>
+                            <div class="modal-form-inputs" role="group">
+                                <div class="modal-form-field">
+                                    <label for="user_name" class="modal-form-item-title">Имя</label>                                    
+                                    <input type="text" name="name" id="user_name" class="modal-form-text-input" />
+                                    <svg class="modal-form-item-icon"><use href="./images/icons.svg#icon-modal-form-name"></use></svg>
+                                </div>
+                                <div class="modal-form-field">
+                                    <label for="user_tel" class="modal-form-item-title">Телефон</label>
+                                    <input type="tel" name="tel" id="user_tel" class="modal-form-text-input" />
+                                    <svg class="modal-form-item-icon"><use href="./images/icons.svg#icon-modal-form-tel"></use></svg>
+                                </div>
+                                <div class="modal-form-field">
+                                    <label for="user_mail" class="modal-form-item-title">Почта</label>
+                                    <input type="email" name="mail" id="user_mail" class="modal-form-text-input" />
+                                    <svg class="modal-form-item-icon"><use href="./images/icons.svg#icon-modal-form-mail"></use></svg>
+                                </div>
+                                <div class="modal-form-field">
+                                    <label for="user_mail" class="modal-form-item-title">Комментарий</label>
+                                    <textarea name="feedback" rows="5" placeholder="Введите текст" class="modal-form-textarea"></textarea>
+                                </div>
+                            </div>
+                            <label class="modal-form-confirmation">
+                                <input type="checkbox" name="confirmation" value="true" id="user_confirmation" class="modal-form-confirmation-checkbox"/>                                
+                                <div class="modal-form-confirmation-icon"></div>
+                                <p class="modal-form-confirmation-title">
+                                    Соглашаюсь с рассылкой и принимаю 
+                                    <a href="" class="modal-form-confirmation-title-link">Условия договора</a>
+                                </p>
+                            </label>
+                            <button type="submit" class="modal-form-submit-button">Отправить</button>
+                        </form>
                     </div>
                 </div>
             </div>
