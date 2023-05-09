@@ -52,8 +52,8 @@
                                     <svg class="modal-form-item-icon"><use href="./images/icons.svg#icon-modal-form-mail"></use></svg>
                                 </div>
                                 <div class="modal-form-field">
-                                    <label for="user_mail" class="modal-form-item-title">Комментарий</label>
-                                    <textarea name="feedback" rows="5" placeholder="Введите текст" class="modal-form-textarea"></textarea>
+                                    <label for="user_feedback" class="modal-form-item-title">Комментарий</label>
+                                    <textarea name="feedback" rows="5" placeholder="Введите текст" id="user_feedback" class="modal-form-textarea"></textarea>
                                 </div>
                             </div>
                             <label class="modal-form-confirmation">
@@ -355,6 +355,20 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="footer-subscribe">
+                    <form class="fotter-subscribe-form">
+                        <label for="user_subscribe_mail" class="footer-subscribe-title">Подпишитесь на рассылку</label>
+                        <div class="footer-subscribe-input-field">
+                            <input type="email" name="subscribe-mail" id="user_subscribe_mail" class="footer-subscribe-input" placeholder="E-mail" />
+                            <button type="submit" class="footer-subscribe-button">
+                                Подписаться
+                                <svg class="footer-subscribe-button-icon">
+                                    <use href="./images/icons.svg#icon-telegram" target="_blank" rel="noopener noreferrer"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </footer>
